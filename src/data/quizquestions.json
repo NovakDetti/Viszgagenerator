@@ -25,7 +25,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 1,
@@ -52,7 +54,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 2,
@@ -79,7 +83,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 3,
@@ -106,7 +112,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 4,
@@ -133,7 +141,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 5,
@@ -160,7 +170,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 6,
@@ -187,7 +199,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 7,
@@ -214,7 +228,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 8,
@@ -241,7 +257,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 9,
@@ -268,7 +286,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 10,
@@ -295,7 +315,9 @@
                     "text": "Adatkapcsolati réteg",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 11,
@@ -322,7 +344,9 @@
                     "text": "Megjelenési réteg",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers": 1
         },
         {
             "id" : 12,
@@ -334,7 +358,9 @@
                     "isCorrect": "true"
 
                 }
-            ]
+            ],
+            "mod": "explanation",            
+            "keywords" : ["idő","feldolgozása", "router", "fejléc", "továbbítás"]
         },
         {
             "id" : 13,
@@ -346,7 +372,9 @@
                     "isCorrect": "true"
 
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["switch","várakozás", "router", "idő"]
         },
         {
             "id" : 14,
@@ -358,7 +386,9 @@
                     "isCorrect": "true"
 
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["jel","fizikai", "cél", "idő", "küldő"]
         },
         {
             "id" : 15,
@@ -369,7 +399,8 @@
                     "text": "8.0",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 16,
@@ -380,7 +411,8 @@
                     "text": "1.0",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 17,
@@ -391,7 +423,8 @@
                     "text": "1.0",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 18,
@@ -405,8 +438,8 @@
                 },
                 {
                     "id":1,
-                    "text": "Időskála: nanosecundum",
-                    "isCorrect": "true"
+                    "text": "Időskála: milisecundum",
+                    "isCorrect": "false"
                 },
                 {
                     "id":2,
@@ -415,10 +448,12 @@
                 },
                 {
                     "id":3,
-                    "text": "Helyi folyamat",
-                    "isCorrect": "true"
+                    "text": "Nem helyi folyamat",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 2
         },
         {
             "id" : 19,
@@ -432,8 +467,8 @@
                 },
                 {
                     "id":1,
-                    "text": "Időskála: kb. 10 ezredmásodperc",
-                    "isCorrect": "true"
+                    "text": "Időskála: kb. 1 ezredmásodperc",
+                    "isCorrect": "false"
                 },
                 {
                     "id":2,
@@ -442,19 +477,21 @@
                 },
                 {
                     "id":3,
-                    "text": "Globális folyamat",
-                    "isCorrect": "true"
+                    "text": "Lokális folyamat",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 2
         },
         {
             "id" : 20,
-            "question": "Melyik állítások igazak a kapcsolatállapot (link state) alapú routing protokollra?",
+            "question": "Melyik állítás igaz a kapcsolatállapot (link state) alapú routing protokollra?",
             "answers":[
                 {
                     "id":0,
-                    "text": "Megméri a szomszédokhoz vezető költséget, majd ezt elküldi minden routernek.",
-                    "isCorrect": "true"
+                    "text": "Megméri a szomszédokhoz vezető költséget, majd ezt elküldi egy szomszédos routernek.",
+                    "isCorrect": "false"
 
                 },
                 {
@@ -462,7 +499,9 @@
                     "text": "Dijkstra algoritmust alkalmaz",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 21,
@@ -470,8 +509,8 @@
             "answers":[
                 {
                     "id":0,
-                    "text": "Aszinkron működés.",
-                    "isCorrect": "true"
+                    "text": "Szinkron működés.",
+                    "isCorrect": "false"
 
                 },
                 {
@@ -484,7 +523,9 @@
                     "text": "Midnen router csak a szomszédjával kommunikál.",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 2
         },
         {
             "id" : 22,
@@ -498,10 +539,12 @@
                 },
                 {
                     "id":1,
-                    "text": "Vevő oldalon, ha nincs hiba az adatrészt továbbküldi a hálózati rétegnek, végül nyugtázza",
-                    "isCorrect": "true"
+                    "text": "Vevő oldalon, ha van, ha nincs hiba az adatrészt továbbküldi a hálózati rétegnek, végül nyugtázza",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 23,
@@ -512,7 +555,8 @@
                     "text": "3.0",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 24,
@@ -523,7 +567,8 @@
                     "text": "3.0",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 25,
@@ -534,7 +579,8 @@
                     "text": "6.0",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 26,
@@ -545,7 +591,9 @@
                     "text": "Ha egy A porton érkezik egy csomag, melyet B állomásnak küldtek, és B nem szerepel a továbbítási táblában, akkor megtanulja, hogy B állomás az A port irányában érhető el.",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["port", "csomag", "állomás", "irány", "tábla"]
         },
         {
             "id" : 27,
@@ -558,10 +606,12 @@
                 },
                 {
                     "id":1,
-                    "text": "Nincsenek zsákutcák (dead ends) a hálózatban.",
-                    "isCorrect": "true"
+                    "text": "Sok zsákutca (dead ends) van a hálózatban.",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 28,
@@ -577,7 +627,9 @@
                     "text": "Hamis",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 29,
@@ -593,7 +645,9 @@
                     "text": "Hamis",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 30,
@@ -609,7 +663,9 @@
                     "text": "Hamis",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 31,
@@ -620,7 +676,9 @@
                     "text": "A továbbítási táblákban sokkal több (-n^2) bejegyzést kell nyilvántartani, mint a cél-alapú megoldásnál.",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["továbbítás", "tábla", "-n^2", "bejegyzés", "nyilvántart", "cél"]
         },
         {
             "id" : 32,
@@ -633,15 +691,17 @@
                 },
                 {
                     "id":1,
-                    "text": "Minden router egy kimenő éllel rendelkezik.",
-                    "isCorrect": "true"
+                    "text": "Nincs olyan router , amely egy kimenő éllel rendelkezik.",
+                    "isCorrect": "false"
                 },
                 {
                     "id":2,
                     "text": "Minden routert tartalmaz.",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 2
         },
         {
             "id" : 33,
@@ -652,7 +712,9 @@
                     "text": "Ha a csomagokat mindig leszállítja a célállomásnak.",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["csomag", "szállít", "cél"]
         },
         {
             "id" : 34,
@@ -663,18 +725,27 @@
                     "text": "Ha a csomag célállomása nem szerepel a továbbítási táblában.",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["csomag", "cél", "szerepel", "továbbítás", "tábla"]
         },
         {
             "id" : 35,
-            "question": "Mely állítások igazak a fizikai rétegre?",
+            "question": "Igaz-e, hogy a fizikai réteg szolgáltatása, hogy információt (biteket) visz át két fizikailag összegkötött eszköz között?",
             "answers":[
                 {
                     "id":0,
-                    "text": "Szolgáltatása, hogy információt (biteket) visz át két fizikailag összegkötött eszköz között",
+                    "text": "Igaz",
+                    "isCorrect": "true"
+                },
+                {
+                    "id":1,
+                    "text": "Hamis",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 36,
@@ -692,14 +763,16 @@
                 },
                 {
                     "id":2,
-                    "text": "Elárasztással, minden routernek eljuttatja a lokális információkat.",
-                    "isCorrect": "true"
+                    "text": "Nem minden routernek juttatja el a lokális információkat.",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 2
         },
         {
             "id" : 37,
-            "question": "Mely állítások igazak a végpont-végpont megbízhatóságra?",
+            "question": "Mely állítás igaz a végpont-végpont megbízhatóságra?",
             "answers":[
                 {
                     "id":0,
@@ -708,19 +781,16 @@
                 },
                 {
                     "id":1,
-                    "text": "A hálózat legyen a lehető legegyszerűbb, azaz nem biztosít végpont-végpont megbízhatóságot.",
-                    "isCorrect": "true"
-                },
-                {
-                    "id":2,
-                    "text": "Az alkalmazásoknak nem kell a hálózati problémákkal foglalkozniuk, így a megbízhatóság biztosításával sem.",
-                    "isCorrect": "true"
+                    "text": "A hálózat legyen a lehető legösszetettebb, azaz biztosítson végpont-végpont megbízhatóságot.",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 38,
-            "question": "Mely állítások igazak az alapsávú átvitelre?",
+            "question": "Mely állítás igaz az alapsávú átvitelre?",
             "answers":[
                 {
                     "id":0,
@@ -729,42 +799,48 @@
                 },
                 {
                     "id":1,
-                    "text": "a jel minden frekvencián átvitelre kerül",
-                    "isCorrect": "true"
+                    "text": "a jel csak bizonyos frekvenciákon kerül átvitelre",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 39,
-            "question": "Mely állítások igazak az szélessávú átvitelre?",
+            "question": "Mely állítás igaz az szélessávú átvitelre?",
             "answers":[
                 {
                     "id":0,
-                    "text": "egy széles frekcencia tartományban történik az átvitel, nem minden frekvencián kerül átvitelre a jel NOT VERIFIED",
-                    "isCorrect": "true"
+                    "text": "egy széles frekcencia tartományban történik az átvitel, minden frekvencián átvitelre kerül a jel NOT VERIFIED",
+                    "isCorrect": "false"
                 },
                 {
                     "id":1,
                     "text": "a jelet modulálással ülteti egy vivóhullámra NOT VERIFIED",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 40,
-            "question": "Mely állítások igazak az szélessávú átvitelre?",
+            "question": "Mely állítás igaz az szélessávú átvitelre?",
             "answers":[
                 {
                     "id":0,
-                    "text": "egy széles frekcencia tartományban történik az átvitel, nem minden frekvencián kerül átvitelre a jel NOT VERIFIED",
-                    "isCorrect": "true"
+                    "text": "egy széles frekcencia tartományban történik az átvitel, minden frekvencián átvitelre kerül a jel NOT VERIFIED",
+                    "isCorrect": "false"
                 },
                 {
                     "id":1,
                     "text": "a jelet modulálással ülteti egy vivóhullámra NOT VERIFIED",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 41,
@@ -777,15 +853,17 @@
                 },
                 {
                     "id":1,
-                    "text": "2 egészhatvány sorszámú pozíciói lesznek az ellenőrző bitek, azaz 1,2,4,8,16,..., a maradék helyeket az üzenet bitjeivel töltjük fel",
-                    "isCorrect": "true"
+                    "text": "10 egészhatvány sorszámú pozíciói lesznek az ellenőrző bitek, azaz 1,2,4,8,16,..., a maradék helyeket az üzenet bitjeivel töltjük fel",
+                    "isCorrect": "false"
                 },
                 {
                     "id":2,
                     "text": "Paritást használó technika",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 2
         },
         {
             "id" : 42,
@@ -793,8 +871,8 @@
             "answers":[
                 {
                     "id":0,
-                    "text": "Csak duplex csatorna esetén alkalmazható. Adat és nyugta csomagok egyszherre utazhatnak.",
-                    "isCorrect": "true"
+                    "text": "Csak duplex csatorna esetén alkalmazható. Adat és nyugta csomagok külön utazhatnak.",
+                    "isCorrect": "false"
                 },
                 {
                     "id":1,
@@ -806,45 +884,63 @@
                     "text": "A nem megengedett sorozatszámmal érkező kereteket el kell dobni.",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 2
         },
         {
             "id" : 43,
-            "question": "Mely állítások igazak a szimplex megáll és vár protokollra (zajos csat.)?",
+            "question": "Mely állítás igaz a szimplex megáll és vár protokollra (zajos csat.)?",
             "answers":[
                 {
                     "id":0,
-                    "text": "Csomagvesztés esetén az időzítő lejárta után (timeout) újraköldi a keretet",
-                    "isCorrect": "true"
+                    "text": "Csomagvesztés esetén az időzítő lejárta után (timeout) eldobja a keretet",
+                    "isCorrect": "false"
                 },
                 {
                     "id":1,
                     "text": "Nyugta elvesztése esetén duplikátumok adódhatnak át a felsőbb rétegnek a fogadó oldalon.",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 44,
-            "question": "Mely állítás igaz a bridge-eknél (hidaknál) látott feszítőfa protokollra? (STP)?",
+            "question": "Igaz-e ? Egy bridge a szomszéd bridge-eknek küldi el a konfigurációs üzenetét, mely alapján azok frissítik a gyökér csomópont és a hozzá vezető úthoz kapcsolódó információkat.",
             "answers":[
                 {
                     "id":0,
-                    "text": "Egy bridge a szomszéd bridge-eknek küldi el a konfigurációs üzenetét, mely alapján azok frissítik a gyökér csomópont és a hozzá vezető úthoz kapcsolódó információkat.",
+                    "text": "Igaz",
                     "isCorrect": "true"
+                },
+                {
+                    "id":1,
+                    "text": "Hamis",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 45,
-            "question": "Mely állítás igaz a bridge-eknél (hidaknál) látott feszítőfa protokollra? (STP)?",
+            "question": "Igaz-e a bridge-eknél (hidaknál) látott feszítőfa protokollra? A fa gyökere a legkisebb ID-val rendelkező bridge, melyet a szomszédoktól kapott üzenetek alapján frissí egy bridge.?",
             "answers":[
                 {
                     "id":0,
-                    "text": "A fa gyökere a legkisebb ID-val rendelkező bridge, melyet a szomszédoktól kapott üzenetek alapján frissí egy bridge.",
+                    "text": "Igaz",
                     "isCorrect": "true"
+                },
+                {
+                    "id":1,
+                    "text": "Hamis",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 46,
@@ -855,7 +951,8 @@
                     "text": "1",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 47,
@@ -866,7 +963,8 @@
                     "text": "2",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 48,
@@ -877,7 +975,8 @@
                     "text": "7",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 49,
@@ -888,7 +987,8 @@
                     "text": "6",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 49,
@@ -899,7 +999,8 @@
                     "text": "12",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 50,
@@ -910,7 +1011,8 @@
                     "text": "14",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 51,
@@ -921,7 +1023,9 @@
                     "text": "Időbeliség",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["idő"]
         },
         {
             "id" : 52,
@@ -932,7 +1036,9 @@
                     "text": "Helyesség",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["helyes"]
         },
         {
             "id" : 53,
@@ -943,7 +1049,8 @@
                     "text": "2,3,4,5",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 54,
@@ -954,7 +1061,9 @@
                     "text": "Eldobja a csomagot és nyugtát küld.",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["csomag", "eldob", "nyugt", "küld"]
         },
         {
             "id" : 55,
@@ -965,7 +1074,9 @@
                     "text": "Kumulatív nyugta - cummulative ACK",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["kumulatív", "ACK", "nyugt"]
         },
         {
             "id" : 56,
@@ -976,29 +1087,45 @@
                     "text": "Teljes információ visszacsatolás - Full Information Feedback",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "keywords" : ["teljes", "információ", "csatolás"]
         },
         {
             "id" : 57,
-            "question": "Kumulatív nyugta (cummulative ACK) esetén miként tudjuk detektálni a csomagvesztést?",
+            "question": "Kumulatív nyugta (cummulative ACK) esetén miként tudjuk detektálni a csomagvesztést? Igaz-e , hogy az izolált csomagvesztéseket nyugta dupliokátumok jelzik?",
             "answers":[
                 {
                     "id":0,
-                    "text": "Az izolált csomagvesztéseket nyugta dupliokátumok jelzik. Emelett timerekkel is dolgozik a módszer.",
+                    "text": "Igaz",
                     "isCorrect": "true"
+                },
+                {
+                    "id":1,
+                    "text": "Hamis",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "explanation",
+            "correct_answers" : 1
         },
         {
             "id" : 58,
-            "question": "Hogyan definiáltuk a helyességet! Egy szállítási mechanizmus helyes, akkor és csak akkor...",
+            "question": "Hogyan definiáltuk a helyességet! Egy szállítási mechanizmus helyes, akkor és csak akkor, ha ...",
             "answers":[
                 {
                     "id":0,
                     "text": "Minden elvesztett vagy hibás csomagot újraküld.",
                     "isCorrect": "true"
+                },
+                {
+                    "id":1,
+                    "text": "Minden hibás csomagot eldob.",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 59,
@@ -1009,18 +1136,26 @@
                     "text": "9.5 (megközelítőleg: 0.0)",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 60,
-            "question": "Mi a folyam vezérlés (flow control) célja a megbízható adatátvitel során?",
+            "question": "A folyam vezérlés (flow control) célja a megbízható adatátvitel során, a lassú vevő túlterhelésének megakadályozása",
             "answers":[
                 {
                     "id":0,
-                    "text": "A lassú vevő túlterhelésének megakadályozása.",
+                    "text": "Igaz",
                     "isCorrect": "true"
+                },
+                {
+                    "id":1,
+                    "text": "Hamis",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 61,
@@ -1028,30 +1163,27 @@
             "answers":[
                 {
                     "id":0,
-                    "text": "csomagvesztés",
-                    "isCorrect": "true"
+                    "text": "tartalom mósodulása",
+                    "isCorrect": "false"
                 },
                 {
                     "id":1,
-                    "text": "meghibásodás",
-                    "isCorrect": "true"
+                    "text": "címzés meghibásodás",
+                    "isCorrect": "false"
                 },
                 {
                     "id":2,
-                    "text": "duplikátumok",
-                    "isCorrect": "true"
-                },
-                {
-                    "id":3,
                     "text": "várakoztatás",
                     "isCorrect": "true"
                 },
                 {
-                    "id":4,
+                    "id":3,
                     "text": "csomagok sorrendjének megváltoztatása",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 2
         },
         {
             "id" : 62,
@@ -1072,7 +1204,9 @@
                     "text": "Idő-osztásos multiplexálás (TDM)",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 63,
@@ -1093,7 +1227,9 @@
                     "text": "Idő-osztásos multiplexálás (TDM)",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 64,
@@ -1114,7 +1250,9 @@
                     "text": "Idő-osztásos multiplexálás (TDM)",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 65,
@@ -1135,7 +1273,9 @@
                     "text": "Idő-osztásos multiplexálás (TDM)",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         }, 
         {
             "id" : 66,
@@ -1156,7 +1296,9 @@
                     "text": "Idő-osztásos multiplexálás (TDM)",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 67,
@@ -1177,18 +1319,27 @@
                     "text": "Idő-osztásos multiplexálás (TDM)",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 68,
-            "question": "Mit nevezünk elnyelődésnek?",
+            "question": "Elnyelődés: A küldési és vételi energiák különbsége.",
             "answers":[
                 {
                     "id":0,
-                    "text": "A küldési és vételi energiák hányadosát.",
+                    "text": "Igaz",
+                    "isCorrect": "false"
+                },
+                {
+                    "id":1,
+                    "text": "Hamis",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 69,
@@ -1214,7 +1365,9 @@
                     "text": "QAM-16 technika",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 70,
@@ -1240,7 +1393,9 @@
                     "text": "QAM-16 technika",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 71,
@@ -1266,7 +1421,9 @@
                     "text": "QAM-16 technika",
                     "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 71,
@@ -1292,7 +1449,9 @@
                     "text": "QAM-16 technika",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 72,
@@ -1303,7 +1462,8 @@
                     "text": "20",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod" : "count"
         },
         {
             "id" : 73,
@@ -1314,7 +1474,8 @@
                     "text": "4 Baud",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 74,
@@ -1325,7 +1486,8 @@
                     "text": "2",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod":"count"
         },
         {
             "id" : 75,
@@ -1335,8 +1497,15 @@
                     "id":0,
                     "text": "f*L = c",
                     "isCorrect": "true"
+                },
+                {
+                    "id":1,
+                    "text": "f*c = L",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         },
         {
             "id" : 76,
@@ -1347,7 +1516,8 @@
                     "text": "1",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },  
         {
             "id" : 77,
@@ -1358,7 +1528,8 @@
                     "text": "2",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },
         {
             "id" : 77,
@@ -1369,18 +1540,26 @@
                     "text": "3",
                     "isCorrect": "true"
                 }
-            ]
+            ],
+            "mod": "count"
         },  
         {
             "id" : 78,
-            "question": "Minek kell teljesülnie a chip vektorokra a CDMA módszer esetén?",
+            "question": "Igaz-e a chip vektorokra a CDMA módszer esetén, hogy a vektoroknak páronként ortogonálisnak  kell lenniük?",
             "answers":[
                 {
                     "id":0,
-                    "text": "Páronként ortogonális vektoroknak kell lenniük. ",
+                    "text": "Igaz ",
                     "isCorrect": "true"
+                },
+                {
+                    "id":1,
+                    "text": "Hamis",
+                    "isCorrect": "false"
                 }
-            ]
+            ],
+            "mod": "choose",
+            "correct_answers" : 1
         }                                                                  
         
     ]

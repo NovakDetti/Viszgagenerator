@@ -4,9 +4,11 @@ import Questions from './Questions';
 
 function QuizTable() {
   return (
-    <div className="jumbotron margin-surround">
-      <h1>Számhálók vizsgagenerátor</h1>
-      <Questions />
+    <div>
+      <h1 className="title">Számhálók vizsgagenerátor</h1>
+      <div className="jumbotron margin-surround">
+        <Questions />
+      </div>
     </div>
   );
 }

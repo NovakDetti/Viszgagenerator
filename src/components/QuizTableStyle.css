@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
 .margin-surround{
-    margin: 7rem;
+    margin: 5rem;
     background-color: #272343;
     color:white;
+    padding: 10;
+}
+
+.title{
+    margin-top: 2rem;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(46, 41, 41);
+    letter-spacing: 0.4rem;
 }
