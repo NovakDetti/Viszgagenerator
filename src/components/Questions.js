@@ -10,14 +10,15 @@ class Questions extends Component{
             quizWindowActive : false,
             random: Math.floor(0 + (Math.random() * (78 - 0))),
             counter : 20,
-            counterFromOpposite : 0,
+            counterFromOpposite : 1,
             isCorrect : false,
             correctAnswers : 0,
             correctdigitAnswer : 0,
             userdigitAnswer : 0,
             modCount : 0,
             modCountCounter : 1,
-            isEnd : false
+            isEnd : false,
+            arrayOfExplanations : []
         }
         };
 
@@ -27,25 +28,31 @@ class Questions extends Component{
         this.setState({ modCountCounter: this.state.modCountCounter + 1})
         e.target.className.includes("true") ? this.countCorrectAnswers() : console.log("nope")
         if(this.state.modCount == this.state.modCountCounter){
-            this.setState({ random: Math.floor(0 + (Math.random() * (78 - 0)))})
-            this.setState({ counterFromOpposite : this.state.counterFromOpposite + 1 })
             this.setState({ modCountCounter : 1})
-            this.isEnd();
+            this.nextQuestion()
         }
     }
 
-    handleClickForDigit = () => {
-        this.setState({ random: Math.floor(0 + (Math.random() * (78 - 0)))})
+    nextQuestion = (e) =>{
+        this.setState({ random: Math.floor(Math.random() * 78 )})
         this.setState({ counterFromOpposite : this.state.counterFromOpposite + 1 })
         this.isEnd();
     }
 
     countCorrectAnswers = () => { this.setState({ correctAnswers : this.state.correctAnswers + 1 })}
 
-    handleClickForExplanation = (e) => {
-        this.setState({ random: Math.floor(0 + (Math.random() * (78 - 0)))})
-        this.setState({ counterFromOpposite : this.state.counterFromOpposite + 1 })
-        this.isEnd();
+    explanation= (e) => {
+        let counter = 0;
+        console.log(e.target.value)
+        console.log(this.state.arrayOfExplanations)
+        for(let i = 0; i< this.state.arrayOfExplanations[0].length; ++i){
+            if(e.target.value.includes(this.state.arrayOfExplanations[0][i])){
+                counter ++;
+                if(counter>=2){
+                    this.countCorrectAnswers();
+                }
+                }
+        }
     }
 
     countResult = (e) => {
@@ -58,13 +65,17 @@ class Questions extends Component{
 
 
     isEnd() {
-        this.state.counter == this.state.counterFromOpposite ? this.setState({ quizWindowActive: false },{isEnd : true}) : console.log("________");
+        if(this.state.counter == this.state.counterFromOpposite){
+             this.setState({isEnd : true});
+             this.setState({ quizWindowActive: false });
+        }
     }
 
     render(){
             if(this.state.quizWindowActive){
             let correct_answers = JSONResult["questions"][this.state.random]["correct_answers"];
             let mod = JSONResult["questions"][this.state.random]["mod"];
+            let keys = JSONResult["questions"][this.state.random]["keywords"];
             let jsonObj = JSONResult["questions"][this.state.random]["answers"];
             const arr = [];
             for (let index = 0; index < jsonObj.length; index++) {
@@ -81,10 +92,11 @@ class Questions extends Component{
                         arr.map((item) => {
                             if(mod === "count"){
                                 this.state.correctdigitAnswer = parseInt(item["text"]);
-                                console.log(this.state.correctdigitAnswer)
-                                return <div id="textFieldInput" className="centered "><input type="text" className={item['text']} onChange={this.countResult}/><button type="button" className="btn btn-outline-dark" onClick={this.handleClickForDigit}>Következő</button></div>
+                                return <div id="textFieldInput" className="centered "><input type="text" className={item['text']} onChange={this.countResult}/><button type="button" className="btn btn-outline-dark" onClick={this.nextQuestion}>Következő</button></div>
                             }else if(mod === "explanation"){
-                                return <div id="textFieldInput" className="centered"><input type="text" onChange={this.explanation}/><button type="button" className="btn btn-outline-dark" onClick={this.handleClickForExplanation}>Következő</button></div>
+                                this.state.arrayOfExplanations.length = 0;
+                                this.state.arrayOfExplanations = [...this.state.arrayOfExplanations, keys];
+                                return <div id="textFieldInput" className="centered"><input type="text" onChange={this.explanation}/><button type="button" className="btn btn-outline-dark" onClick={this.nextQuestion}>Következő</button></div>
                             }else if(mod === "choose"){
                                 this.state.modCount = correct_answers
                                 if(item["isCorrect"] == "true"){
@@ -99,7 +111,7 @@ class Questions extends Component{
                     </div>
                 </div>
                 )
-            }else if(this.state.isEnd && this.state.quizWindowActive){
+            }else if(this.state.isEnd && !this.state.quizWindowActive){
                 return(<div><h1>Az eredményed {this.state.correctAnswers} pont </h1>
                             <h2>{Math.floor((this.state.correctAnswers/this.state.counter)*100)}%</h2>
                             <h3> {Math.floor((this.state.correctAnswers/this.state.counter)*100) >= 60 &&
@@ -108,7 +120,7 @@ class Questions extends Component{
             }else{
                 return( <div>
                         <div id="landingPic"></div>
-                        <button type="button" class="btn btn-outline-primary" onClick={this.loadQuiz}>Start</button>
+                        <button type="button" className="btn btn-outline-primary" onClick={this.loadQuiz}>Start</button>
                 </div>)
             }
     }
